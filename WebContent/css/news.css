@@ -1,0 +1,26 @@
+h1.news {
+	margin: 10px 0;
+	padding-left: 40px;
+	font-size: 20px;
+}
+
+.news-box {
+	margin: 30px;
+	border: 1px solid black;
+}
+
+.news-box:first-of-type {
+	margin-top: 0;
+}
+
+.news-box h1{
+	background-color: blue;
+	margin: 0;
+	padding-left: 10px;
+	font-size: 16px;
+	color: white;	
+}
+
+.news-box p {
+	padding: 10px;
+}

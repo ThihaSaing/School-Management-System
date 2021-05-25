@@ -1,0 +1,31 @@
+.admin-panel {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px 40px;
+	padding: 50px;
+}
+.admin-panel section {
+	border: 1px solid black;
+}
+
+.admin-panel section h1 {
+	margin: 0;
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.admin-panel section a {
+	color: blue;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.admin-panel section a:hover {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+

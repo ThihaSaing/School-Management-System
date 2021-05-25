@@ -1,0 +1,53 @@
+table {
+	border: 1px solid black;
+	margin: 0 30px;
+	min-width: 700px;
+	border-collapse: collapse;
+}
+
+h1.table {
+	margin: 10px 30px;
+	font-size: 20px;
+}
+
+tr:first-child {
+	background-color: blue;
+	color: white;
+}
+
+th, td {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 0 10px;
+}
+
+tr:nth-child(even) {
+	background-color: grey;
+	color: white;
+}
+
+table a {
+	text-decoration: none;
+	color: blue;
+	cursor: pointer;
+}
+
+table a:hover {
+	text-decoration: underline;
+}
+
+a.button {
+	display: block;
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	border: 1px solid black;
+	width: 125px;
+	margin: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+
